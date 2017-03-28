@@ -1,0 +1,7 @@
+var main = function() {
+  (".dropdown-toggle").click( {
+    (".dropdown-menu").toggle();
+  });
+};
+
+(document).ready(main);
