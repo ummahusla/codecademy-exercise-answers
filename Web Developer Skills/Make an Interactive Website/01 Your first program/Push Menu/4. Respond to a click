@@ -1,0 +1,5 @@
+var main=function(){
+    $('.icon-menu').click(function(){
+    });
+}
+$(document).ready(main);
