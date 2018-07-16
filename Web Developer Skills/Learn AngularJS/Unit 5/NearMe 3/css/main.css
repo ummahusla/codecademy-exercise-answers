@@ -1,0 +1,49 @@
+html, body, #map_canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  line-height: 37px;
+}
+
+.header .container-fluid {
+  position: relative;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1.2px;    
+  margin: 0;
+  padding: 10px 0 10px 55px;
+  text-transform: uppercase;
+}
+
+.header a {
+  padding-right: 20px;
+  color: #fff;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#map_canvas {
+  position: relative;
+}
+
+.angular-leaflet-map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
